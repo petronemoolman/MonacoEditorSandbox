@@ -1,0 +1,29 @@
+﻿@page "/editor"
+@using BlazorMonaco
+@using BlazorMonaco.Editor
+
+<style>
+    .editor {
+        height: 500px;
+        width: auto;
+    }
+</style>
+
+<h3>Code Editor</h3>
+
+<StandaloneCodeEditor @ref="_editor" Id="sample-code-editor-123" CssClass="editor" ConstructionOptions="EditorConstructionOptions" />
+
+@code {
+    private BlazorMonaco.Editor.StandaloneCodeEditor _editor = null!;
+    private string _valueToSet = "";
+
+    private StandaloneEditorConstructionOptions EditorConstructionOptions(StandaloneCodeEditor editor)
+    {
+        return new StandaloneEditorConstructionOptions
+        {
+            Language = "python",
+            GlyphMargin = true,
+            Value = "print('Hello world');\n"
+        };
+    }
+}

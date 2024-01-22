@@ -1,0 +1,61 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MonacoEditorSandbox
+build_property.RootNamespace = MonacoEditorSandbox
+build_property.ProjectDir = C:\Users\petrone.moolman\OneDrive - Dynamo Analytics\Documents\Work\Solutions\Blazor Sandbox App\MonacoEditorSandbox\MonacoEditorSandbox\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\petrone.moolman\OneDrive - Dynamo Analytics\Documents\Work\Solutions\Blazor Sandbox App\MonacoEditorSandbox\MonacoEditorSandbox
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/petrone.moolman/OneDrive - Dynamo Analytics/Documents/Work/Solutions/Blazor Sandbox App/MonacoEditorSandbox/MonacoEditorSandbox/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petrone.moolman/OneDrive - Dynamo Analytics/Documents/Work/Solutions/Blazor Sandbox App/MonacoEditorSandbox/MonacoEditorSandbox/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petrone.moolman/OneDrive - Dynamo Analytics/Documents/Work/Solutions/Blazor Sandbox App/MonacoEditorSandbox/MonacoEditorSandbox/Pages/Editor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petrone.moolman/OneDrive - Dynamo Analytics/Documents/Work/Solutions/Blazor Sandbox App/MonacoEditorSandbox/MonacoEditorSandbox/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petrone.moolman/OneDrive - Dynamo Analytics/Documents/Work/Solutions/Blazor Sandbox App/MonacoEditorSandbox/MonacoEditorSandbox/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petrone.moolman/OneDrive - Dynamo Analytics/Documents/Work/Solutions/Blazor Sandbox App/MonacoEditorSandbox/MonacoEditorSandbox/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petrone.moolman/OneDrive - Dynamo Analytics/Documents/Work/Solutions/Blazor Sandbox App/MonacoEditorSandbox/MonacoEditorSandbox/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petrone.moolman/OneDrive - Dynamo Analytics/Documents/Work/Solutions/Blazor Sandbox App/MonacoEditorSandbox/MonacoEditorSandbox/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-n77m0o21p2
+
+[C:/Users/petrone.moolman/OneDrive - Dynamo Analytics/Documents/Work/Solutions/Blazor Sandbox App/MonacoEditorSandbox/MonacoEditorSandbox/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-h1g19r288r
+
+[C:/Users/petrone.moolman/OneDrive - Dynamo Analytics/Documents/Work/Solutions/Blazor Sandbox App/MonacoEditorSandbox/MonacoEditorSandbox/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petrone.moolman/OneDrive - Dynamo Analytics/Documents/Work/Solutions/Blazor Sandbox App/MonacoEditorSandbox/MonacoEditorSandbox/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
