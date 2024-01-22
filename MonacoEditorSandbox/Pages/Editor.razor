@@ -1,6 +1,7 @@
 ﻿@page "/editor"
-@using BlazorMonaco
 @using BlazorMonaco.Editor
+@using MonacoEditorSandbox.Data
+@inject PythonService PythonService
 
 <style>
     .editor {
@@ -11,11 +12,19 @@
 
 <h3>Code Editor</h3>
 
-<StandaloneCodeEditor @ref="_editor" Id="sample-code-editor-123" CssClass="editor" ConstructionOptions="EditorConstructionOptions" />
+<div>
+    <StandaloneCodeEditor @ref="_editor" Id="sample-code-editor-123" CssClass="editor" ConstructionOptions="EditorConstructionOptions" />
+</div>
+
+<button @onclick="RunScript">Run Script</button>
+
+<div>
+    <pre>@output</pre>
+</div>
 
 @code {
     private BlazorMonaco.Editor.StandaloneCodeEditor _editor = null!;
-    private string _valueToSet = "";
+    private string output = "";
 
     private StandaloneEditorConstructionOptions EditorConstructionOptions(StandaloneCodeEditor editor)
     {
@@ -25,5 +34,13 @@
             GlyphMargin = true,
             Value = "print('Hello world');\n"
         };
+    }
+    
+    
+    private async Task RunScript()
+    {
+        var script = await _editor.GetValue();
+        output = await PythonService.RunScriptAsync(script);
+        StateHasChanged();
     }
 }
